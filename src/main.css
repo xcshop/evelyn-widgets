@@ -1,1 +1,45 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 5px 10px;
+}
+body header nav {
+  width: 100%;
+}
+body header .moblie_nav {
+  width: 100%;
+  position: relative;
+  text-align: center !important;
+}
+body header .moblie_nav a {
+  color: black;
+  text-decoration: none;
+}
+body header .moblie_nav .bi-list {
+  position: absolute;
+  right: 0;
+}
+body header .moblie_nav .inner_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding-top: 10px;
+}
+body header .moblie_nav .inner_nav.hide {
+  position: absolute;
+  top: -200px;
+}
+body .desktop_nav {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
